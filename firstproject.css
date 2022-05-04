@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0%;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39); 
+}
+.essai{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+nav{
+    margin-right: 40px;
+}
+nav a{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px; 
+    font-weight: bold;
+    color: #195A6E;
+}
