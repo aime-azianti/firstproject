@@ -16,14 +16,10 @@ header {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39); 
 }
 .essai{
-    width: 40px;
-    height: 40px;
-    background-color: red;
-    border-radius: 50%;
-    margin-left: 40px;
+    margin-left: 100px;
 }
 nav{
-    margin-right: 40px;
+    margin-right: 180px;
 }
 nav a{
     padding: 10px;
@@ -31,4 +27,17 @@ nav a{
     font-size: 15px; 
     font-weight: bold;
     color: #195A6E;
+}
+.banniere{
+    background: url(./images/image2.jpg) no-repeat center/cover;
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+}
+.banniere h3{
+    color: white; 
+}
+.division{
+    width: 90%;
+    margin: auto;
 }
