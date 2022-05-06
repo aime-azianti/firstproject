@@ -48,7 +48,7 @@ align: left;
 vertical-align: top;
 margin-top: 2px;
 padding-top: 200px;
-padding-left: 650px;
+padding-left: 1000px;
 
 }
 .division{
@@ -68,21 +68,19 @@ h2{
     display: flex;
     justify-content: space-between;
     color: white;
-    position: relative;
     
 }
 .training{
     display: flex;
     justify-content: space-between;
-    padding: 0px;
     position: relative;
-  
+} 
 
-}
+
 .box{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 30px;
     background: #E5E5E5;
     position: relative;
 
@@ -90,53 +88,25 @@ h2{
 .s1{
     border: 1px solid #195A6E;
     background: #195A6E;
+    width: 20%;
     padding: 30px;
-    padding-right: 10px;
-    margin-inline: 50px;
-    margin-right: 20px;
-    margin-left: auto;
 }
-.s10{
-    border: 1px solid #195A6E;
-    background: #195A6E;
-    padding: 30px;
-    padding-right: 10px;
-    margin-inline: 30px;
-    margin-right: 20px;
-}
-.s11{
-    border: 1px solid #195A6E;
-    background: #195A6E;
-    padding: 30px;
-    padding-right: 20px;
-    margin-inline: 30px;
-    margin-right: auto;
-}
-.variete h3{
-    text-align: center;
-}
+
 .s2{
     border: 1px solid #C4C4C4;
     padding: 30px;
     background: #C4C4C4;
-    padding-right: 0px;
-    margin-inline: 40px;
-    margin-left: 0px;
+    width: 40%;
 }
-.s20{
+
+.s3{
+    width: 20%;
     border: 1px solid #C4C4C4;
     padding: 30px;
-    background: #C4C4C4;
-    padding-right: 10px;
-    margin-inline:40px;
-    margin-right: auto;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+   
 }
-.s3{
-    padding-right: 10px;
-    margin-inline: 30px;
-    border: 1px solid #C4C4C4;
-    padding: 20px;
-}
-.training h3{
+.training h3, h4, .variete h3{
     text-align: center;
 }
