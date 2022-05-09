@@ -1,4 +1,4 @@
-*{
+"*{
     margin: 0;
     padding: 0%;
     
@@ -61,8 +61,6 @@ h2{
     line-height: 61px;
     letter-spacing: 0em;
     text-align: center;
-    padding: 50px;
-    ;
 }
 .variete{
     display: flex;
@@ -120,29 +118,82 @@ h2{
     width: 60%;
     margin: 0 auto;
     background-color: #195A6E ;
+    margin-top: 80px;
+    color: white;
+    font-weight: bold;
    }
-.separator{
 
+form button {
+    width: 300px;
+    max-width: 500px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 28px;
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    color: #195A6E;
+    margin-right: 550px;
+    margin-left: 550px;
+        
+        }
+.ajuster{
+    margin-bottom: 20px;
+    padding: ;
+        }
+ .identite{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+    margin-left: 90px;
+    }
+.surname{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+    margin-left: 90px;
    
 }
-  
+.adresse{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+    margin-left: 90px;
 }
 .besoin{
-    
+    margin-right: 90px;
+    margin-left: 90px; 
 }
- .identité {
-    
+#titre{
+    width: 535px;
+    margin-top: 5px;
 }
-
-    form button {
-        width: 300px;
-        max-width: 500px;
-        height: 60px;
-        font-weight: 700;
-        font-size: 28px;
-        background: white;
-        border: rgba(48, 48, 48, 0.5) solid 1px;
-        border-radius: 5px;
-        color: #195A6E;
-        }
-       
+form input{
+    width: 500px;
+    padding:  15px;
+    border-radius: 5px;
+}
+.hauteur{
+    height: 50px;
+}
+.augmente{
+    height: 80px;
+}
+#email{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#message{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#prenom{
+    margin-top: 10px;
+}
+#nom{
+    margin-top: 10px;
+}
+#tel{
+    margin-top: 10px;
+}
