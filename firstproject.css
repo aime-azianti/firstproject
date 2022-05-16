@@ -1,34 +1,39 @@
-"*{
+*{
     margin: 0;
     padding: 0%;
     
 }
+
+/*section barre de navigation*/
+
 a{
     text-decoration: none;
     color: inherit;
 }
 header {
     width: 100%;
-    height: 80px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39); 
-    
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.35); 
 }
-.essai{
-    margin-left: 280px;
+.AS{
+    margin-left: 18rem;
 }
 nav{
-    margin-right: 310px;
+    margin-right: 20rem;
 }
 nav a{
     padding: 10px;
     cursor: pointer;
-    font-size: 15px; 
+    font-size: 20px; 
     font-weight: bold;
     color: #195A6E;
+    text-decoration: none;
 }
+/*section bannière*/
+
 .banniere{
     background: url(./images/image2.jpg) no-repeat center/cover;
     width: 60%;
@@ -36,58 +41,85 @@ nav a{
     margin: auto;
 }
 .banniere h3{
-color: white; 
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-style: bold;
-font-size: 25px;
-font-weight: 80;
-line-height: 62px;
-line-height: 100%;
-letter-spacing: 0em;
-align: left;
-vertical-align: top;
-margin-top: 2px;
-padding-top: 200px;
-padding-left: 1000px;
-
+    color: white; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    font-size: 25px;
+    font-weight: 80;
+    line-height: 300%
+    letter-spacing 0em;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 2px;
+    padding-top: 14rem;
+    padding-left: 40rem;
+    animation: entrance 2s infinite alternate;
 }
+
+/*créer une animation bannière*/
+    @keyframes entrance {
+        from{
+            opacity: 0;
+        }
+        to {
+            opacity: 2;
+        }
+    }
+
+/*partie corps du projet*/
+
 .division{
     width: 60%;
     margin: auto;
 }
 h2{
-    font-family: font-family: Lora;
+    font-family: sans-serif;
     font-size: 30px;
-    line-height: 61px;
     letter-spacing: 0em;
     text-align: center;
+    padding: 50px
 }
+
+/*créer une animation*/
+    @keyframes monanimation {
+      from {
+          color: black;
+      } 
+      
+      to {
+          color: blue;
+          transform: scale(1.1);
+      }
+    }
+
+h2:hover{
+    animation: monanimation 2s infinite alternate;
+}
+
+/*section programme*/
+
 .variete{
     display: flex;
     justify-content: space-between;
     color: white;
     
 }
-.training{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-} 
-
-
-.box{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    background: #E5E5E5;
-    position: relative;
-
-}
 .s1{
     border: 1px solid #195A6E;
     background: #195A6E;
     width: 20%;
     padding: 30px;
+}
+
+/*section formation*/
+
+.training{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+} 
+.training h3{
+    color: #195A6E;
 }
 
 .s2{
@@ -97,23 +129,41 @@ h2{
     width: 40%;
 }
 
+
+/*section témoignages*/
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background: #E5E5E5;
+    position: relative;
+
+}
+
 .s3{
     width: 25%;
     border: 1px solid #C4C4C4;
     padding: 15px;
     background-color: #C4C4C4;
     border-radius: 10px;
-   
 }
-.training h3, h4, .variete h3{
-    text-align: center;
-}
-.radius img{
+   .radius img{
     border-radius: 10px;
     margin: auto;
     display: block;
+    height: 130px;
+    width: 200px;
 }
-.formulaire{
+    .training h3, h4, .variete h3{
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
+
+/*section formulaire*/
+    .formulaire{
     border: 1px solid #195A6E;
     width: 60%;
     margin: 0 auto;
@@ -122,8 +172,29 @@ h2{
     color: white;
     font-weight: bold;
    }
-
-form button {
+   .identite{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+    margin-left: 90px;
+    }
+    .surname{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 90px;
+        margin-left: 90px; 
+    }
+    .adresse{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 90px;
+        margin-left: 90px;
+    }
+    .besoin{
+        margin-right: 90px;
+        margin-left: 90px; 
+    }
+    form button {
     width: 300px;
     max-width: 500px;
     height: 60px;
@@ -131,103 +202,138 @@ form button {
     font-size: 28px;
     background: white;
     border: rgba(48, 48, 48, 0.5) solid 1px;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #195A6E;
-    margin-right: 550px;
-    margin-left: 550px;
+    margin-right: 320px;
+    margin-left: 320px;
         
         }
-.ajuster{
+    .ajuster{
     margin-bottom: 20px;
-    padding: ;
         }
- .identite{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 90px;
-    margin-left: 90px;
-    }
-.surname{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 90px;
-    margin-left: 90px;
-   
-}
-.adresse{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 90px;
-    margin-left: 90px;
-}
-.besoin{
-    margin-right: 90px;
-    margin-left: 90px; 
-}
-#titre{
-    width: 535px;
+
+    .titre{
+    width: 21rem;
     margin-top: 5px;
+    border-radius: 10px;
+    padding: 4%;
 }
-form input{
-    width: 500px;
+    form input{
+    width: 300px;
     padding:  15px;
-    border-radius: 5px;
-}
-.hauteur{
-    height: 50px;
-}
-.augmente{
-    height: 80px;
-}
-#email{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#message{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-#prenom{
-    margin-top: 10px;
-}
-#nom{
-    margin-top: 10px;
-}
-#tel{
-    margin-top: 10px;
-}
-.pic{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 500px;
-}
-.im2{
-    padding-top: 65px;
-}
-.alone{
-   padding-top: 40px;
-   margin-right: 400px;
-}
-.local{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    padding-bottom: 50px;
-}
-.logo{
-    padding-bottom: 120px;
+    border-radius: 10px;
+    }
+    .hauteur{
+        height: 50px;
+    }
+    .augmente{
+        height: 80px;
+    }
+    #email{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #message{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;   
+    }
+    .note{
+        height: 150px;
+        width: 765px;
+    }
+    #prenom{
+        margin-top: 10px;
+    }
+    #nom{
+        margin-top: 10px;
+    }
+    #tel{
+        margin-top: 10px;
+    }
+
+    /*section localisation*/
+    .adapte iframe{
+        width: 700px; 
+        height: 280px;
+    }
+
+    .pic{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 40%;
+    }
+    .im2{
+        padding-top: 90px;
+        font-size: 60px;
+        color: rgba(10, 48, 218, 0.918);
+
+    }
+    .alone{
+    padding-top: 70px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.logo img{
-    margin-top: 90px;
-    margin: 2rem 0rem 2rem 0rem;
-    justify-content: space-between;
-}
-.legal{
+    }
+    .local{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+    .just{
+
+        margin-left: 3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    .little{
+        font-size: 15px;
+    }
+    .push{
+        font-weight: bold;
+        padding-top: 30px;
+        margin-left: 30px;
+    }
+    .local i{
+        font-size: 50px;
+        color: rgba(10, 48, 218, 0.918);
+    }
+    .icone{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /*section nos partenaires*/
+
+    .sponsor{
+
+    text-align: none;
+    margin-right: 62%;
+    padding-left: 0;
+    }
+    .logo{
+        padding-bottom: 120px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .logo img{
+        margin-top: 90px;
+        margin: 2rem 0rem 2rem 0rem;
+        justify-content: space-between;
+    }
+
+    .down img{
+        padding-top: 40px;
+    }
+    .down1 img{
+    padding-top: 25px;
+    }
+    .down2 img{
+        padding-top: 20px;
+    }
+
+/*section footer*/
+
+    .legal{
     background-color: #195A6E;
     width: 100%;
     height: 160px;
@@ -236,14 +342,195 @@ form input{
     color: white;
     font-size: 20px;
 }
-footer .legal .container {
+    footer .legal .container {
     display: flex;
     justify-content: space-around;
     padding: 4rem;
     margin-left: 10rem;
     margin-right: 10rem;
 }
-.local i{
-    font-size: 50px;
-    color: rgba(10, 48, 218, 0.918);
+@media all and (max-width:1100px) and (min-width:700px) {
+    .division{
+        width: 100%;
+        margin: auto;
+    } 
+    header {
+    
+        height: auto;
+        display: inline-block;    
+    }
+    nav{
+        margin-right: 0;
+    }
+    nav a{
+        margin-left: 5%;
+    }
+     /*section bannière*/
+     .banniere{
+        width: 100%;
+        height: 300px;
+    }
+
+    .banniere h3{
+        font-size: 20px;
+        margin-top: 2px;
+        padding-top: 10rem;
+        padding-left: 35rem;
+    }
+    .formulaire{
+        width: 100%;
+    }
+    .identite, .surname, .adresse, .besoin{
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+    form button {
+        margin-right: 300px;
+        margin-left: 300px;
+   }
+    .local{
+        display: inline-block;
+    }
+    .sponsor{
+        margin-right: 52%;
+        }
+        .pic{
+        margin-right: 30%;
+    }
+    .logo{
+        width: 60%;
+    }
+    .note{
+        width: 725px;
+    }
+    .radius img{
+    width: 150px;
+    }
+    
+}
+@media all and (max-width:699px) {
+    .division{
+        width: 100%;
+        margin: auto;
+    } 
+    /*section header*/
+    
+    nav{
+        margin: auto;
+    }
+   
+    .AS{
+        margin-left: 5px;
+        margin-left: 5px;
+    }
+    nav a{
+        margin-left: 5%;
+        font-size: small;
+    }
+
+    /*section bannière*/
+    .banniere{
+        background: url(./images/image2.jpg) no-repeat center/cover;
+        width: 100%;
+        height: 200px;
+    }
+
+    .banniere h3{
+        font-size: 15px;
+        margin-top: 2px;
+        padding-top: 6rem;
+        padding-left: 15rem;
+    }
+
+    p{
+        font-size: small;
+    }  
+     h2{
+        font-size: 15px;
+        padding: 30px
+    }
+
+
+    /*section programme*/
+
+    .s1{
+        width: 25%;
+        padding: 10px;
+    }
+
+    /*section formation*/
+    .s2{
+        padding: 10px;
+        width: 40%;
+    }
+
+    
+    /*section témoignage*/
+    .s3{
+        width: 26%;
+        border: 1px solid #C4C4C4;
+        padding: 10px;
+    }
+    .radius img{
+        width: 60px;
+        height: 40px;
+        }
+
+
+    /*section formulaire*/
+    .formulaire{
+        width: 100%;
+    }
+    .titre{
+        width: 10rem;
+    }
+    form input{
+        width: 9rem;
+        padding: 8px;
+    }
+    .note{
+        width: 370px;
+    }
+  
+    .identite, .surname, .adresse, .besoin{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    form button {
+        width: 150px;
+        font-weight: 80px;
+        margin-right: 120px;
+        margin-left: 120px;
+   }
+
+
+    /*localisation*/
+
+    .local{
+        display: inline-block;
+    }
+    .adapte iframe{
+        width: 400px; 
+        height: 200px;
+    }
+    .im2{
+        padding-top: 30px;
+        font-size: 40px;
+    }
+    
+    .alone{
+    padding-top: 10px;
+    width: 100%;
+    }
+    
+   
+    /*section partenaire*/
+    .sponsor{
+        margin-right: 52%;
+        }
+    .logo{
+        width: 50%;
+    }
+    
+
 }
