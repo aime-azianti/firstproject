@@ -213,7 +213,7 @@ p{
         }
 
     .titre{
-    width: 21rem;
+    width: 19rem;
     margin-top: 5px;
     border-radius: 10px;
     padding: 4%;
@@ -240,7 +240,7 @@ p{
     }
     .note{
         height: 150px;
-        width: 765px;
+        width: 100%;
     }
     #prenom{
         margin-top: 10px;
@@ -386,6 +386,7 @@ p{
     margin-right: 20px;
     margin-left: 20px;
     }
+   
     form button {
         margin-right: 300px;
         margin-left: 300px;
