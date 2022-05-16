@@ -408,11 +408,14 @@ p{
     }
     
 }
+
+
 @media all and (max-width:699px) {
     .division{
         width: 100%;
         margin: auto;
     } 
+
     /*section header*/
     
     nav{
@@ -429,6 +432,7 @@ p{
     }
 
     /*section bannière*/
+
     .banniere{
         background: url(./images/image2.jpg) no-repeat center/cover;
         width: 100%;
@@ -459,6 +463,7 @@ p{
     }
 
     /*section formation*/
+
     .s2{
         padding: 10px;
         width: 40%;
@@ -466,6 +471,7 @@ p{
 
     
     /*section témoignage*/
+
     .s3{
         width: 26%;
         border: 1px solid #C4C4C4;
@@ -478,6 +484,7 @@ p{
 
 
     /*section formulaire*/
+
     .formulaire{
         width: 100%;
     }
