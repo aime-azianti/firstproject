@@ -31,6 +31,7 @@ nav a{
     font-weight: bold;
     color: #195A6E;
     text-decoration: none;
+    
 }
 
 #allsite{
@@ -111,8 +112,8 @@ h2:hover{
 .s1{
     border: 1px solid #195A6E;
     background: #195A6E;
-    width: 20%;
-    padding: 30px;
+    width: 30%;
+    padding: 20px;
 }
 
 /*section formation*/
@@ -146,9 +147,9 @@ h2:hover{
 }
 
 .s3{
-    width: 25%;
+    width: 30%;
     border: 1px solid #C4C4C4;
-    padding: 15px;
+    padding: 10px;
     background-color: #C4C4C4;
     border-radius: 10px;
 }
@@ -198,17 +199,17 @@ p{
     .besoin{
         margin-right: 90px;
         margin-left: 90px; 
-        width: 94%;
+        
     }
     form button {
     width: 300px;
     max-width: 500px;
-    height: 60px;
+    height: 100px;
     font-weight: 700;
     font-size: 28px;
     background: white;
     border: rgba(48, 48, 48, 0.5) solid 1px;
-    border-radius: 10px;
+    border-radius: 40px;
     color: #195A6E;
     margin-right: 320px;
     margin-left: 320px;
@@ -252,7 +253,7 @@ p{
     }
     .note{
         height: 150px;
-        width: 85%;
+        width: 99%;
     }
     #prenom{
         margin-top: 10px;
@@ -266,8 +267,8 @@ p{
 
  /*section localisation*/
     .adapte iframe{
-        width: 700px; 
-        height: 280px;
+        width: 600px; 
+        height: 290px;
     }
 
     .pic{
@@ -317,7 +318,7 @@ p{
     .sponsor{
 
     text-align: none;
-    margin-right: 62%;
+    margin-right: 60%;
     padding-left: 0;
     }
     .logo{
@@ -362,6 +363,8 @@ p{
     margin-right: 10rem;
 }
 
+
+
 @media all and (max-width:1100px) and (min-width:700px) {
 
     .division{
@@ -400,7 +403,6 @@ p{
     }
    
     form button {
-        margin-right: 300px;
         margin-left: 300px;
    }
     .local{
@@ -447,6 +449,7 @@ p{
         width: 60px;
         height: 40px;
         }
+
         .container {
             flex-wrap: wrap;
             padding-top: 5rem;
@@ -545,27 +548,23 @@ p{
         width: 100%;
     }
     .titre{
-        width: 10rem;
+        width: 9rem;
     }
     form input{
         width: 9rem;
         padding: 8px;
     }
     .note{
-        width: ;
+        width:70% ;
     }
   
     .identite, .surname, .adresse, .besoin{
-        margin-right: 10px;
-        margin-left: 10px;
+        flex-wrap: wrap;
     }
     form button {
         width: 150px;
-        font-weight: 80px;
-        margin-right: 120px;
-        margin-left: 120px;
+        margin-left: 90px;
    }
-
 
 /*localisation*/
 
@@ -594,6 +593,11 @@ p{
     .logo{
         width: 100%;
     }
-    
-
+    .container {
+        flex-wrap: wrap;
+        width: 30%;
+    }
 }
+
+
+
