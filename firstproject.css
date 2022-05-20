@@ -17,8 +17,9 @@ header {
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.35); 
+    background-color: white;
 }
-.AS{
+.logo-AS{
     margin-left: 18rem;
 }
 nav{
@@ -34,7 +35,7 @@ nav a{
     
 }
 
-#allsite{
+#all-site{
     width: 100%;
 }
 /*section bannière*/
@@ -73,7 +74,7 @@ nav a{
 
 /*partie corps du projet*/
 
-.division{
+.centre-site{
     width: 60%;
     margin: auto;
 }
@@ -109,7 +110,7 @@ h2:hover{
     color: white;
     
 }
-.s1{
+.variete-college-lycee-universite{
     border: 1px solid #195A6E;
     background: #195A6E;
     width: 30%;
@@ -127,7 +128,7 @@ h2:hover{
     color: #195A6E;
 }
 
-.s2{
+.training-coachingscolaire-leadership{
     border: 1px solid #C4C4C4;
     padding: 30px;
     background: #C4C4C4;
@@ -137,7 +138,7 @@ h2:hover{
 
 /*section témoignages*/
 
-.box{
+.box-temoignage{
     display: flex;
     justify-content: space-between;
     padding: 30px;
@@ -146,14 +147,14 @@ h2:hover{
 
 }
 
-.s3{
+.box-temoignage-coaches{
     width: 30%;
     border: 1px solid #C4C4C4;
     padding: 10px;
     background-color: #C4C4C4;
     border-radius: 10px;
 }
-   .radius img{
+   .box-temoignage-coaches-individu img{
     border-radius: 10px;
     margin: auto;
     display: block;
@@ -177,26 +178,20 @@ p{
     color: white;
     font-weight: bold;
    }
-   .identite{
+   .formulaire-identite{
     display: flex;
     justify-content: space-between;
     margin-right: 90px;
     margin-left: 90px;
-    flex-wrap: wrap;
     }
-    .surname{
+    .formulaire-box-surname, .formulaire-box-adresse{
         display: flex;
         justify-content: space-between;
         margin-right: 90px;
         margin-left: 90px; 
     }
-    .adresse{
-        display: flex;
-        justify-content: space-between;
-        margin-right: 90px;
-        margin-left: 90px;
-    }
-    .besoin{
+    
+    .formulaire-box-besoin{
         margin-right: 90px;
         margin-left: 90px; 
         
@@ -215,17 +210,17 @@ p{
     margin-left: 350px;
         
         }
-    .ajuster{
+    .ajuster-formulaire{
     margin-bottom: 20px;
         }
 
-    .titre{
+    .formulaire-titre{
     width: 19rem;
     margin-top: 5px;
     border-radius: 10px;
     padding: 4%;
 }
-    #civilité{
+    #formulaire-civilité{
         margin-bottom: 10px;
     }
     form input{
@@ -233,17 +228,17 @@ p{
     padding:  15px;
     border-radius: 10px;
     }
-    .hauteur{
+    .formulaire-identite-hauteur{
         height: 50px;
     }
-    .augmente{
+    .formulaire-box-nom{
         height: 80px;
     }
-    #email{
+    #formulaire-email{
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    #number{
+    #formulaire-number{
         margin-top: 10px;
     }
     #message{
@@ -251,14 +246,14 @@ p{
         margin-bottom: 10px;
         border-radius: 10px;   
     }
-    .note{
+    .formulaire-box-besoin-note{
         height: 150px;
         width: 99%;
     }
-    #prenom{
+    #formulaire-prenom{
         margin-top: 10px;
     }
-    #nom{
+    #formulaire-nom{
         margin-top: 10px;
     }
     #tel{
@@ -266,87 +261,87 @@ p{
     }
 
  /*section localisation*/
-    .adapte iframe{
+    .localisation-conteneur-map iframe{
         width: 600px; 
         height: 290px;
     }
 
-    .pic{
+    .localisation-conteneur-icone-text{
         display: flex;
         justify-content: space-between;
         margin-right: 40%;
     }
-    .im2{
+    .localisation-conteneur-icone{
         padding-top: 90px;
         font-size: 60px;
         color: rgba(10, 48, 218, 0.918);
 
     }
-    .alone{
+    .localisation-conteneur-text{
     padding-top: 70px;
     width: 100%;
     }
-    .local{
+    .localisation-conteneur-map-adresse{
         display: flex;
         justify-content: space-between;
         padding-bottom: 50px;
     }
-    .just{
+    .localisation-conteneur-adresse{
 
         margin-left: 3rem;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }
-    .little{
+    .localisation-conteneur-mail-number{
         font-size: 15px;
     }
-    .push{
+    .localisation-conteneur-map-text{
         font-weight: bold;
         padding-top: 30px;
         margin-left: 30px;
     }
-    .local i{
+    .localisation-conteneur-map-adresse i{
         font-size: 50px;
         color: rgba(10, 48, 218, 0.918);
     }
-    .icone{
+    .localisation-conteneur-socialmedia-icone{
         display: flex;
         justify-content: space-between;
     }
 
 /*section nos partenaires*/
 
-    .sponsor{
+    .partenaire-text{
 
     text-align: none;
     margin-right: 60%;
     padding-left: 0;
     }
-    .logo{
+    .conteneur-logo-partenaire{
         padding-bottom: 12%;
         width: 100%;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    .logo img{
+    .conteneur-logo-partenaire img{
         margin-top: 90px;
         margin: 1rem 0rem 1rem 0rem;
         justify-content: space-between;
     }
 
-    .down img{
+    .conteneur-logo-jethro img{
         padding-top: 40px;
     }
-    .down1 img{
+    .conteneur-logo-ciceri img{
     padding-top: 25px;
     }
-    .down2 img{
+    .conteneur-logo-aenms img{
         padding-top: 20px;
     }
 
 /*section footer*/
 
-    .legal{
+    .AS-legal-text{
     background-color: #195A6E;
     width: 100%;
     height: 16%;
@@ -354,8 +349,9 @@ p{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39); 
     color: white;
     font-size: 20px;
+    padding-bottom: 5rem;
 }
-    footer .legal .container {
+    footer .AS-legal-text .container {
     display: flex;
     justify-content: space-around;
     padding-top: 5rem;
@@ -364,13 +360,30 @@ p{
 }
 
 
+@media (width: 1280px) {
+    .banniere h3{
+        padding-top: 12rem;
+        padding-left: 33rem;
+    }
+    .box-temoignage-coaches-individu img{
+        width: 150px;
+        height: 90px;
+        }
+        .localisation-conteneur-map iframe{
+            width: 500px; 
+            height: 260px;
+        }
+    .localisation-conteneur-text h2, .partenaire-text h2{
+        padding-left: 0px;
+    }
+    .partenaire-text{
+        margin-right: 50%;
+    }
+}
+
 
 @media all and (max-width:1100px) and (min-width:700px) {
 
-    .division{
-        width: 100%;
-        margin: auto;
-    } 
     header {
     
         height: auto;
@@ -394,45 +407,49 @@ p{
         padding-top: 10rem;
         padding-left: 35rem;
     }
-    .formulaire{
-        width: 100%;
-    }
-    .identite, .surname, .adresse, .besoin{
+
+/*section formulaire*/
+   
+    .formulaire-identite, .formulaire-box-surname, .formulaire-box-adresse, .formulaire-box-besoin{
     margin-right: 20px;
     margin-left: 20px;
+    flex-wrap: wrap;
     }
    
     form button {
-        margin-left: 300px;
+        margin-left: 30px;
    }
-    .local{
+
+
+  
+    .localisation-conteneur-map-adresse{
         display: inline-block;
     }
-    .sponsor{
+    .partenaire-text{
         margin-right: 52%;
         }
-        .pic{
+        .localisation-conteneur-icone-text{
         margin-right: 30%;
     }
-    .logo{
+    .conteneur-logo-partenaire{
         width: 60%;
     }
-    .note{
+    .formulaire-box-besoin-note{
         width: 88%;
     }
-    .radius img{
+    .box-temoignage-coaches-individu img{
     width: 150px;
     }
 /*section programme*/
 
-     .s1{
+     .variete-college-lycee-universite{
         width: 25%;
         padding: 10px;
     }
 
  /*section formation*/
 
-    .s2{
+    .training-coachingscolaire-leadership{
         padding: 10px;
         width: 40%;
     }
@@ -440,12 +457,12 @@ p{
     
 /*section témoignage*/
 
-    .s3{
+    .box-temoignage-coaches{
         width: 26%;
         border: 1px solid #C4C4C4;
         padding: 10px;
     }
-    .radius img{
+    .box-temoignage-coaches-individu img{
         width: 60px;
         height: 40px;
         }
@@ -460,18 +477,15 @@ p{
 
 
 @media all and (max-width:699px) {
-    .division{
-        width: 100%;
-        margin: auto;
-    } 
 
 /*section header*/
+
     
     nav{
         margin: auto;
     }
    
-    .AS{
+    .logo-AS{
         margin-left: 5px;
         margin-left: 5px;
     }
@@ -485,14 +499,13 @@ p{
     .banniere{
         background: url(./images/image2.jpg) no-repeat center/cover;
         width: 100%;
-        height: 200px;
+        height: 250px;
     }
 
     .banniere h3{
-        font-size: 15px;
-        margin-top: 2px;
-        padding-top: 6rem;
-        padding-left: 15rem;
+        font-size: 10px;
+        padding-top: 2rem;
+        padding-left: 0rem;
     }
 
     p{
@@ -511,7 +524,7 @@ p{
         
     }
 
-    .s1{
+    .variete-college-lycee-universite{
         width: 100%;
         padding: 30px;
         margin-bottom: 15px;
@@ -519,24 +532,29 @@ p{
 
 /*section formation*/
 
-    .s2{
+    .training{
+        display: inline-block;
+    }
+
+    .training-coachingscolaire-leadership{
+        width: 100%;
         padding: 10px;
-        width: 40%;
+        margin-bottom: 15px;
     }
 
     
 /*section témoignage*/
 
-    .box{
+    .box-temoignage{
         display: inline-block;
     }
-    .s3{
+    .box-temoignage-coaches{
         width: 100%;
         margin-bottom: 15px;
         border: 1px solid #C4C4C4;
         padding: 30px;
     }
-    .radius img{
+    .box-temoignage-coaches-individu img{
         width: 60px;
         height: 40px;
         }
@@ -544,62 +562,66 @@ p{
 
 /*section formulaire*/
 
-    .formulaire{
-        width: 100%;
-    }
-    .titre{
+   
+    .formulaire-titre{
         width: 9rem;
     }
     form input{
         width: 9rem;
         padding: 8px;
     }
-    .note{
-        width:70% ;
+    .formulaire-box-besoin-note{
+        width:80% ;
     }
   
-    .identite, .surname, .adresse, .besoin{
+    .formulaire-identite, .formulaire-box-surname, .formulaire-box-adresse, .formulaire-box-besoin{
         flex-wrap: wrap;
+        margin-right: 0;
+        margin-left: 0;
+        margin: 30px;
     }
+
+
     form button {
         width: 130px;
-        margin-left: 90px;
-        height: 50px;
+        margin: 20px;
+        height: 40px;
         font-size: 15px;
    }
 
 /*localisation*/
 
-    .local{
+    .localisation-conteneur-map-adresse{
         display: inline-block;
     }
-    .adapte iframe{
-        width: 400px; 
-        height: 200px;
+    .localisation-conteneur-map iframe{
+        width: 185px; 
+        height: 100px;
     }
-    .im2{
+    .localisation-conteneur-icone{
         padding-top: 30px;
         font-size: 40px;
     }
     
-    .alone{
+    .localisation-conteneur-text{
     padding-top: 10px;
     width: 100%;
     }
     
    
 /*section partenaire*/
-    .sponsor{
+    .partenaire-text{
         margin-right: 52%;
         }
-    .logo{
-        width: 100%;
+    .conteneur-logo-partenaire{
+        width: 50%;
+    }
+    .conteneur-logo-cosco img{
+        width: 80%;
     }
     .container {
         flex-wrap: wrap;
         width: 30%;
     }
 }
-
-
 
