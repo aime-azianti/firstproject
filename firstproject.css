@@ -360,10 +360,10 @@ p{
 }
 
 
-@media (width: 1280px) {
+@media all and (max-width: 1280px) and (min-width:1102px) {
     .banniere h3{
         padding-top: 12rem;
-        padding-left: 33rem;
+        padding-left: 30rem;
     }
     .box-temoignage-coaches-individu img{
         width: 150px;
@@ -378,6 +378,10 @@ p{
     }
     .partenaire-text{
         margin-right: 50%;
+    }
+
+    form button{
+        margin-left: 250px;
     }
 }
 
@@ -415,15 +419,24 @@ p{
     margin-left: 20px;
     flex-wrap: wrap;
     }
+
+    .formulaire-identite-hauteur{
+        margin-bottom: 30px;
+    }
    
     form button {
         margin-left: 30px;
    }
 
-
+/*localisation*/
   
     .localisation-conteneur-map-adresse{
         display: inline-block;
+    }
+
+    .localisation-conteneur-map iframe{
+        width: 550px; 
+        height: 290px;
     }
     .partenaire-text{
         margin-right: 52%;
@@ -492,6 +505,7 @@ p{
     nav a{
         margin-left: 5%;
         font-size: small;
+        display: inline-block;
     }
 
 /*section bannière*/
@@ -566,6 +580,10 @@ p{
     .formulaire-titre{
         width: 9rem;
     }
+
+    .formulaire-identite-hauteur{
+        margin-bottom: 30px;
+    }
     form input{
         width: 9rem;
         padding: 8px;
@@ -595,8 +613,17 @@ p{
         display: inline-block;
     }
     .localisation-conteneur-map iframe{
-        width: 185px; 
-        height: 100px;
+        width: 230px; 
+        height: 200px;
+    }
+
+    .localisation-conteneur-adresse{
+        margin-left: 1rem;
+        margin-top: 1rem
+    }
+
+    .localisation-conteneur-map-text{
+        margin-left: 5px;
     }
     .localisation-conteneur-icone{
         padding-top: 30px;
@@ -622,6 +649,10 @@ p{
     .container {
         flex-wrap: wrap;
         width: 30%;
+       
+    }
+    footer .AS-legal-text .container{
+         margin-left: 6rem;
     }
 }
 
